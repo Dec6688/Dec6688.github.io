@@ -1,0 +1,46 @@
+{
+    "title": "鱼鱼鱼鱼鱼の主页",
+    "description": "一个默默无闻的主页",
+    "keywords": "鱼鱼鱼鱼鱼,个人主页",
+    "author": "鱼鱼鱼鱼鱼",
+    "logo_img": "./img/icon/logo.png",
+    "logo_text_1": "鱼鱼鱼鱼鱼",
+    "logo_text_2": "top",
+    "github": "dec6688",
+    "qq": "1525348440",
+    "email": "1525348440",
+    "bilibili": "17637163551",
+    "telegram": "bottom_user",
+    "link_1": [
+        "dec6688.github.io/",
+        "fa-solid fa-blog",
+        "博客"
+    ],
+    "link_2": [
+        "dec6688.github.io/",
+        "fa-solid fa-cloud",
+        "网盘"
+    ],
+    "link_3": [
+        "https://y.qq.com/",
+        "fa-solid fa-music",
+        "音乐"
+    ],
+    "link_4": [
+        "www.baidu.com/",
+        "fa-solid fa-compass",
+        "起始页"
+    ],
+    "link_5": [
+        "www.baidu.com/",
+        "fa-solid fa-book-bookmark",
+        "网址集"
+    ],
+    "link_6": [
+        "www.baidu.com/",
+        "fa-solid fa-flask",
+        "实验室"
+    ],
+    "Copyright_text": "鱼鱼鱼鱼鱼",
+    "beian": "闽ICP备2122018134号-1"
+}
