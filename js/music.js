@@ -10,16 +10,16 @@ GitHub：https://github.com/dec6688/home
 版权所有，请勿删除
 */
 # 歌曲 API 地址
-VITE_SONG_API = "https://i.y.qq.com/v8/playsong.html?songid=491538633#webchat_redirect"
+VITE_SONG_API = "https://dataiqs.com/api/kgmusic/"
 # 歌曲服务器 ( netease-网易云, tencent-qq音乐 )
-VITE_SONG_SERVER = "tencent"
+VITE_SONG_SERVER = "kugou"
 # 播放类型 ( song-歌曲, playlist-播放列表, album-专辑, search-搜索, artist-艺术家 )
 VITE_SONG_TYPE = "song"
 # 播放 ID
-VITE_SONG_ID = "491538633"
+VITE_SONG_ID = "3b7aj78COV2"
 
 $.ajax({
-    url: "https://api.wuenci.com/meting/api/?server=" + server + "&type=" + type + "&id=" + id,
+    url: "https://dataiqs.com/api/?server=" + server + "&type=" + type + "&id=" + id,
     type: "GET",
     dataType: "JSON",
     success: function (data) {
