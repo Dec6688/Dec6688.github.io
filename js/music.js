@@ -10,7 +10,7 @@ GitHub：https://github.com/dec6688/home
 版权所有，请勿删除
 */
 # 歌曲 API 地址
-VITE_SONG_API = "https://api-meting.imsyy.top"
+VITE_SONG_API = "https://i.y.qq.com/v8/playsong.html?songid=491538633#webchat_redirect"
 # 歌曲服务器 ( netease-网易云, tencent-qq音乐 )
 VITE_SONG_SERVER = "tencent"
 # 播放类型 ( song-歌曲, playlist-播放列表, album-专辑, search-搜索, artist-艺术家 )
