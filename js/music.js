@@ -9,9 +9,14 @@ https://api.wuenci.com/meting/api/
 GitHub：https://github.com/dec6688/home
 版权所有，请勿删除
 */
-let server = "kuwo"; //netease: 网易云音乐; tencent: QQ音乐; kugou: 酷狗音乐; xiami: 虾米; kuwo: 酷我
-let type = "song"; //song: 单曲; playlist: 歌单; album: 唱片
-let id = "377413145"; //封面 ID / 单曲 ID / 歌单 ID
+# 歌曲 API 地址
+VITE_SONG_API = "https://api-meting.imsyy.top"
+# 歌曲服务器 ( netease-网易云, tencent-qq音乐 )
+VITE_SONG_SERVER = "tencent"
+# 播放类型 ( song-歌曲, playlist-播放列表, album-专辑, search-搜索, artist-艺术家 )
+VITE_SONG_TYPE = "song"
+# 播放 ID
+VITE_SONG_ID = "491538633"
 
 $.ajax({
     url: "https://api.wuenci.com/meting/api/?server=" + server + "&type=" + type + "&id=" + id,
